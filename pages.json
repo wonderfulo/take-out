@@ -1,0 +1,83 @@
+{
+	"pages": [
+		{
+			"path": "pages/me/me",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				// "navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ED792E"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "enablePullDownRefresh": true //开启单页面下拉刷新功能
+			}
+		},
+		{
+			"path": "pages/fanli/fanli",
+			"style": {
+				"navigationBarTitleText": "更多返利"
+			}
+		},
+		{
+			"path": "pages/menDian/menDian",
+			"style": {
+				"navigationBarTitleText": "周边门店"
+			}
+		},
+		{
+			"path": "pages/penguinCircle/penguinCircle",
+			"style": {
+				"navigationBarTitleText": "企鹅圈"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#515151",
+		"selectedColor": "#919191",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabBarIco/index.png",
+				"selectedIconPath": "static/tabBarIco/index.png"
+			},
+			{
+				"pagePath": "pages/fanli/fanli",
+				"text": "更多返利",
+				"iconPath": "static/tabBarIco/fanli.png",
+				"selectedIconPath": "static/tabBarIco/fanli.png"
+			},
+			{
+				"pagePath": "pages/menDian/menDian",
+				"text": "周边门店",
+				"iconPath": "static/tabBarIco/menDian.png",
+				"selectedIconPath": "static/tabBarIco/menDian.png"
+			},
+			{
+				"pagePath": "pages/penguinCircle/penguinCircle",
+				"text": "企鹅圈",
+				"iconPath": "static/tabBarIco/qiequan.png",
+				"selectedIconPath": "static/tabBarIco/qiequan.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/tabBarIco/me.png",
+				"selectedIconPath": "static/tabBarIco/me.png"
+			}
+		]
+	}
+}
